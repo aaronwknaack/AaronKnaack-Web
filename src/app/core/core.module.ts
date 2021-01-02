@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { NavBarComponent } from './navbar/navbar.component';
 
@@ -7,7 +8,8 @@ import { NavBarComponent } from './navbar/navbar.component';
     NavBarComponent
   ],
   imports: [
-    SharedModule
+    SharedModule,
+    RouterModule
   ],
   exports: [
     SharedModule,

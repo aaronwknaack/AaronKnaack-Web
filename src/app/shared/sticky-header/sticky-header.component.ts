@@ -19,7 +19,7 @@ enum Direction {
     styles: [
         `
         :host {
-          background: #fff;
+          background: transparent;
           position: fixed;
           top: 0;
           width: 100%;
